@@ -12,13 +12,26 @@ const USER_CONFIG = {
   "CALLBACK_TEMPLATE_ID":"",
   "CALLBACK_USERS":[{"name":"自己","id":""}],
   "USERS":[
-    {"name":"老婆","id":"o25ud53pl7mfwAIxGPpPUxyI43jg",
+    {"name":"亲亲老婆","id":"o25ud5-Oq77mNo58CNpSxrI4Osz4",
      "useTemplateId":"RpLvqYz7QWv7q72f5SN8GdPyv1kI7gCCJmEJKUku1ZY",
      "province":"重庆","city":"渝北区","horoscopeDate":"10-05",
      "horoscopeDateType":"今日",
      "openUrl":"https://voice.baidu.com/act/newpneumonia/newpneumonia/?from=osari_aladin_banner&city=%E9%87%8D%E5%BA%86-%E9%87%8D%E5%BA%86",
      "festivals":[{"type":"节日","name":"结婚纪念日","date":"09-09","year":"2022"}],
-     "customizedDateList":[]}],
+     "customizedDateList":[
+       {"keyword":"love_day",date:"2021-11-21"},
+       {"keyword":"marry_day",date:"2022-09-09"}
+     ]},
+     {"name":"老公","id":"o25ud53pl7mfwAIxGPpPUxyI43jg",
+     "useTemplateId":"RpLvqYz7QWv7q72f5SN8GdPyv1kI7gCCJmEJKUku1ZY",
+     "province":"重庆","city":"渝北区","horoscopeDate":"10-05",
+     "horoscopeDateType":"今日",
+     "openUrl":"https://voice.baidu.com/act/newpneumonia/newpneumonia/?from=osari_aladin_banner&city=%E9%87%8D%E5%BA%86-%E9%87%8D%E5%BA%86",
+     "festivals":[{"type":"节日","name":"结婚纪念日","date":"09-09","year":"2022"}],
+     "customizedDateList":[
+       {"keyword":"love_day",date:"2021-11-21"},
+       {"keyword":"marry_day",date:"2022-09-09"}
+     ]}],
   "SWITCH":{
     "weather":true,"holidaytts":true,"CIBA":true,"oneTalk":false,
     "earthyLoveWords":false,"momentCopyrighting":false,
