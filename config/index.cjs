@@ -33,8 +33,8 @@ const USER_CONFIG = {
        {"keyword":"marry_day",date:"2022-09-09"}
      ]}],
   "SWITCH":{
-    "weather":true,"holidaytts":true,"CIBA":true,"oneTalk":false,
-    "earthyLoveWords":false,"momentCopyrighting":false,
+    "weather":true,"holidaytts":true,"CIBA":false,"oneTalk":false,
+    "earthyLoveWords":true,"momentCopyrighting":true,
     "poisonChickenSoup":false,"poetry":false,"horoscope":false,
     "birthdayMessage":true}
 }
