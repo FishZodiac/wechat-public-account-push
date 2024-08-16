@@ -12,7 +12,7 @@ const USER_CONFIG = {
   "CALLBACK_TEMPLATE_ID":"",
   "CALLBACK_USERS":[{"name":"自己","id":""}],
   "USERS":[
-    {"name":"亲亲老婆","id":"o25ud5-Oq77mNo58CNpSxrI4Osz4",
+    {"name":"亲亲老婆","id":"on8Z06d9bn9Vbaf4HMWAdtlhrKmw",
      "useTemplateId":"8bIDZYd-vFH8TcTsjAzt-c4ZWL_zyabZETC4BXjjqa0",
      "province":"重庆","city":"渝北区","horoscopeDate":"10-05",
      "horoscopeDateType":"今日",
@@ -35,7 +35,7 @@ const USER_CONFIG = {
   "SWITCH":{
     "weather":true,"holidaytts":true,"CIBA":true,"oneTalk":false,
     "earthyLoveWords":false,"momentCopyrighting":false,
-    "poisonChickenSoup":false,"poetry":false,"horoscope":false,
+    "poisonChickenSoup":false,"poetry":true,"horoscope":false,
     "birthdayMessage":true}
 }
 
