@@ -423,16 +423,17 @@ export const getPoetry = async () => {
       console.error('古诗古文：发生错误', warning || '')
       return {}
     }
-    const { content = DEFAULT_OUTPUT.poetryContent, origin } = data || {}
+    let { content = DEFAULT_OUTPUT.poetryContent, origin } = data || {}
 
+    if (origin.content){content = origin.content}
+    
     const wxContent = []
-    for (let j = 0, i = 0; j < content.length; j += 20) {
+    for (let i = 0; i < content.length; i++) {
       wxContent.push({
         name: `wx_poetry_content_${i}`,
-        value: content.slice(j, j + 20),
+        value: content[i],
         color: getColor()
       })
-      i++
     }
 
     const { title = '', author = '', dynasty = '' } = origin || {}
